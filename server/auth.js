@@ -10,5 +10,8 @@ export const auth = betterAuth({
     ssl: { rejectUnauthorized: false },
   }),
   emailAndPassword: { enabled: true },
-  trustedOrigins: ["http://localhost:5173"],
+  trustedOrigins: [
+    "http://localhost:5173",
+    "https://tennis-booking-ocbx.onrender.com",
+  ],
 });
